@@ -1,3 +1,9 @@
+### Plugins
+- [X] Zsh as shell
+- [X] Oh-my-zsh as zsh configuration manager
+- [ ] FZF
+- [ ] Tmux
+
 ### Tools
 - [ ] Syntax highlight
 - [ ] Code completion
@@ -5,10 +11,14 @@
 - [ ] Readme
 
 ### CI/CD
-- [ ] Build/Push Docker image to registry
+- [X] Build/Push Docker image to registry
+
+### Configurations
+- [ ] Zsh
+- [ ] Tmux
+- [ ] Neovim
 
 ### Run
 - :PackerInstall
 - :LspInstall <language_to_install>
 - :TSInstall <language_to_install>
-# neovim-ide

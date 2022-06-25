@@ -23,6 +23,8 @@ RUN git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share
 RUN npm install -g neovim
 RUN git config --global user.name "Ihor Kopyl"
 
+RUN sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 ENV LANG en_US.utf8
 
 LABEL key="value"
