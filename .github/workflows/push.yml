@@ -46,10 +46,7 @@ jobs:
       #     cosign-release: 'v1.9.0'
 
       - name: Debug
-        run: echo ${{ env.REGISTRY }}
-        run: echo ${{ github.actor }}
-        run: echo ${{ secrets.GITHUB_TOKEN }}
-        run: echo ${{ env.IMAGE_NAME }}
+        run: echo ${{ env.REGISTRY }} && echo ${{ github.actor }} && echo ${{ secrets.GITHUB_TOKEN }} && echo ${{ env.IMAGE_NAME }}
 
 
       # Workaround: https://github.com/docker/build-push-action/issues/461
