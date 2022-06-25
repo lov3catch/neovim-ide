@@ -25,4 +25,6 @@ RUN git config --global user.name "Ihor Kopyl"
 
 ENV LANG en_US.utf8
 
+LABEL key="value"
+
 WORKDIR /root/.config/
